@@ -1,0 +1,15 @@
+{
+  "name": "bcc-role",
+  "description": "bcc 2015 example role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "dns-proxy": {
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[dns-proxy]"
+  ]
+}

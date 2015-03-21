@@ -1,0 +1,21 @@
+{
+  "id": "keys",
+  "username": {
+    "encrypted_data": "j0w/wY5/GXSIpfDtM90gFBjPwDHhZpIdPcUZEJYNftI=\n",
+    "iv": "aBHRqwxb7Zfp9GuxUAVnfQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "password": {
+    "encrypted_data": "KcOv3kLYF9pTs/s14CSTYbTTUfLTXLMbzsdJMO02dlNStDFmyHs0RVZFszi5\nbaJi\n",
+    "iv": "yPJnOzqD22aMQKNNpzQD8g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "apitoken": {
+    "encrypted_data": "IvZLKfrhqo+5nLK2SD5EF6fZZcH2T599gJT9PKRQhTo=\n",
+    "iv": "3Mm9WDSmEvE4yfafFNM4KQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
