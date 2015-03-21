@@ -4,12 +4,16 @@
   "json_class": "Chef::Role",
   "default_attributes": {
     "dns-proxy": {
+    },
+    "nginx": {
+      "install-method": "repo"
     }
   },
   "override_attributes": {
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[dns-proxy]"
+    "recipe[dns-proxy]",
+    "recipe[nginx]"
   ]
 }
