@@ -1,0 +1,5 @@
+default["dns-proxy"][:sniproxy_dir]  = "/opt/sniproxy"
+default["dns-proxy"][:local_ip_addr] = "127.0.0.1"
+default["dns-proxy"][:public_ip_addr] = "127.0.0.1"
+default["dns-proxy"][:query_ip_addr] = "127.0.0.1"
+default["dns-proxy"][:real_dns_server] = "8.8.8.8"

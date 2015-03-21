@@ -1,0 +1,208 @@
+E, [2014-10-27T00:27:04.680326 #73124] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-27T00:27:04.680414 #73124] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-27T00:27:04.680441 #73124] ERROR -- Kitchen: Message: Kitchen YAML file /Users/zvickery/dev/bsu-cloud-computing/chef-cookbook/dns-proxy/.kitchen.yml does not exist.
+E, [2014-10-27T00:27:04.680464 #73124] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-27T00:27:04.680488 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-10-27T00:27:04.680511 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:78:in `data'
+E, [2014-10-27T00:27:04.680532 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:66:in `suites'
+E, [2014-10-27T00:27:04.680553 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-10-27T00:27:04.680575 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-27T00:27:04.680596 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-27T00:27:04.680617 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-27T00:27:04.680638 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-27T00:27:04.680659 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/list.rb:31:in `call'
+E, [2014-10-27T00:27:04.680684 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-27T00:27:04.680705 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:81:in `list'
+E, [2014-10-27T00:27:04.680726 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-27T00:27:04.680761 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-27T00:27:04.680783 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-10-27T00:27:04.680804 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-27T00:27:04.680826 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-27T00:27:04.680847 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-27T00:27:04.680868 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-27T00:27:04.680893 #73124] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-27T00:27:04.680914 #73124] ERROR -- Kitchen: /usr/bin/kitchen:10:in `load'
+E, [2014-10-27T00:27:04.680935 #73124] ERROR -- Kitchen: /usr/bin/kitchen:10:in `<main>'
+E, [2014-10-27T00:27:04.680955 #73124] ERROR -- Kitchen: ----------------------
+I, [2014-10-27T00:38:33.575013 #73218]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T00:38:34.180106 #73218]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-ubuntu-1404>
+I, [2014-10-27T00:38:34.180347 #73218]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-10-27T00:38:34.192600 #73218]  INFO -- Kitchen: -----> Testing <default-ubuntu-1404>
+I, [2014-10-27T00:38:34.192787 #73218]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-10-27T00:53:43.889256 #73218]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T00:55:07.640353 #73218] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:00:41.241888 #73392]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:00:42.812600 #73392]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-ubuntu-1404>
+I, [2014-10-27T01:00:42.834689 #73392]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-10-27T01:00:48.331235 #73392]  INFO -- Kitchen: -----> Testing <default-ubuntu-1404>
+I, [2014-10-27T01:00:48.331434 #73392]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-10-27T01:02:13.592142 #73392]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:03:40.505588 #73392] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:05:27.022346 #73540]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:05:28.223364 #73540]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:05:35.932369 #73540] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:07:17.565453 #73554]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:07:18.110231 #73554]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:07:25.277713 #73554] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:08:06.179751 #73565]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:08:06.450147 #73565]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:08:13.524829 #73565] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:09:36.824480 #73576]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:09:37.132378 #73576]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:09:44.169313 #73576] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:11:30.265191 #73592]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:11:31.560578 #73592]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:11:38.985553 #73592] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:12:33.838483 #73604]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:12:35.503429 #73604]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:12:42.937886 #73604] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:13:01.099450 #73614]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:13:01.389387 #73614]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:13:08.418606 #73614] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:14:29.606524 #73630]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:14:29.884090 #73630]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:14:36.985732 #73630] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:15:20.463032 #73641]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:15:20.744798 #73641]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:15:27.792913 #73641] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:15:55.180798 #73652]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:15:55.462701 #73652]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:18:17.261666 #73652] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:19:29.250681 #73663]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:19:30.878682 #73663]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:20:03.696644 #73663] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:20:53.899235 #73674]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:20:54.378503 #73674]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:21:22.692566 #73674] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:24:04.489810 #73691]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:24:05.933198 #73691]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:24:30.193562 #73691] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:32:02.470083 #73745]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:32:04.091412 #73745]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:32:32.410742 #73745] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:33:16.159185 #73767]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:33:16.437502 #73767]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:35:42.492955 #73767] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:37:21.632599 #73888]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:37:23.147673 #73888]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:37:45.779693 #73888] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:41:24.635110 #73938]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:41:24.964029 #73938]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:41:50.093899 #73938] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:43:35.343244 #73949]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:43:35.623325 #73949]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:45:34.764469 #73949] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:46:40.079293 #73960]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:46:40.357827 #73960]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-10-27T01:47:10.682760 #73960] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T01:49:26.252518 #73980]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T01:49:27.859721 #73980]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-27T01:49:53.544768 #73980]  INFO -- Kitchen: -----> Kitchen is finished. (0m27.28s)
+I, [2014-10-27T17:29:43.578170 #75058]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:29:45.415108 #75058]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-27T17:30:10.281819 #75058]  INFO -- Kitchen: -----> Kitchen is finished. (0m26.69s)
+I, [2014-10-27T17:30:18.779888 #75068]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:30:20.102625 #75068]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-27T17:30:43.793502 #75068]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+E, [2014-10-27T17:31:01.136768 #75068] ERROR -- Kitchen: Verify failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T17:32:26.526409 #75083]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:32:26.805064 #75083]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+E, [2014-10-27T17:32:28.484628 #75083] ERROR -- Kitchen: Verify failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T17:32:37.446116 #75092]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:32:37.714785 #75092]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-27T17:33:06.273653 #75092]  INFO -- Kitchen: -----> Kitchen is finished. (0m28.83s)
+I, [2014-10-27T17:33:35.156605 #75104]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:33:36.355938 #75104]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-27T17:33:43.649792 #75104]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+E, [2014-10-27T17:33:45.375391 #75104] ERROR -- Kitchen: Verify failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T17:40:17.342926 #75163]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:40:19.014040 #75163]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-27T17:40:48.947454 #75163]  INFO -- Kitchen: -----> Kitchen is finished. (0m31.59s)
+I, [2014-10-27T17:41:01.511996 #75172]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:41:02.729706 #75172]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-27T17:41:10.542691 #75172]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+E, [2014-10-27T17:41:13.021813 #75172] ERROR -- Kitchen: Verify failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T17:45:25.148434 #75194]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:45:26.927397 #75194]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-27T17:48:28.221380 #75194]  INFO -- Kitchen: -----> Kitchen is finished. (3m3.06s)
+I, [2014-10-27T17:48:28.628916 #75205]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T17:48:29.077324 #75205]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-27T17:48:36.013852 #75205]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+I, [2014-10-27T17:48:38.103743 #75205]  INFO -- Kitchen: -----> Kitchen is finished. (0m9.47s)
+I, [2014-10-27T23:24:41.663289 #75424]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T23:24:43.379997 #75424]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+I, [2014-10-27T23:24:45.480866 #75424]  INFO -- Kitchen: -----> Kitchen is finished. (0m3.80s)
+I, [2014-10-27T23:33:56.258654 #75460]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T23:33:57.979616 #75460]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-27T23:34:27.282316 #75460]  INFO -- Kitchen: -----> Kitchen is finished. (0m31.01s)
+I, [2014-10-27T23:35:11.637106 #75469]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T23:35:11.924686 #75469]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-27T23:35:20.789254 #75469]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+E, [2014-10-27T23:35:22.748677 #75469] ERROR -- Kitchen: Verify failed on instance <default-ubuntu-1404>.
+I, [2014-10-27T23:37:33.969537 #75484]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T23:37:34.240154 #75484]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-27T23:38:01.869713 #75484]  INFO -- Kitchen: -----> Kitchen is finished. (0m27.90s)
+I, [2014-10-27T23:38:14.994771 #75493]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-27T23:38:15.363751 #75493]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-27T23:38:24.056830 #75493]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+I, [2014-10-27T23:38:26.626829 #75493]  INFO -- Kitchen: -----> Kitchen is finished. (0m11.63s)
+I, [2014-10-28T00:13:08.587543 #75562]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-28T00:13:10.589449 #75562]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-28T00:13:41.402254 #75562]  INFO -- Kitchen: -----> Kitchen is finished. (0m32.80s)
+I, [2014-10-28T00:21:56.139204 #75581]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-28T00:21:57.815743 #75581]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-28T00:22:11.658916 #75581]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+I, [2014-10-28T00:22:14.435468 #75581]  INFO -- Kitchen: -----> Kitchen is finished. (0m18.28s)
+I, [2014-10-30T11:15:36.396281 #7708]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-30T11:15:38.100564 #7708]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+E, [2014-10-30T11:15:38.246455 #7708] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-30T11:15:38.246514 #7708] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-10-30T11:15:38.246539 #7708] ERROR -- Kitchen: Message: Failed to complete #verify action: [Connection refused - connect(2) for "127.0.0.1" port 2222]
+E, [2014-10-30T11:15:38.246583 #7708] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-10-30T11:15:38.246608 #7708] ERROR -- Kitchen: Class: Errno::ECONNREFUSED
+E, [2014-10-30T11:15:38.246630 #7708] ERROR -- Kitchen: Message: Connection refused - connect(2) for "127.0.0.1" port 2222
+E, [2014-10-30T11:15:38.246653 #7708] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-30T11:15:38.246675 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `initialize'
+E, [2014-10-30T11:15:38.246698 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `open'
+E, [2014-10-30T11:15:38.246725 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `block in initialize'
+E, [2014-10-30T11:15:38.246748 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:76:in `timeout'
+E, [2014-10-30T11:15:38.246771 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:127:in `timeout'
+E, [2014-10-30T11:15:38.246793 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:67:in `initialize'
+E, [2014-10-30T11:15:38.246816 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `new'
+E, [2014-10-30T11:15:38.246838 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `start'
+E, [2014-10-30T11:15:38.246861 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:123:in `establish_connection'
+E, [2014-10-30T11:15:38.246883 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:110:in `session'
+E, [2014-10-30T11:15:38.246906 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:145:in `exec_with_exit'
+E, [2014-10-30T11:15:38.246933 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:54:in `exec'
+E, [2014-10-30T11:15:38.246956 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:110:in `run_remote'
+E, [2014-10-30T11:15:38.246978 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:62:in `block in verify'
+E, [2014-10-30T11:15:38.247001 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-10-30T11:15:38.247024 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:61:in `new'
+E, [2014-10-30T11:15:38.247054 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:61:in `verify'
+E, [2014-10-30T11:15:38.247077 #7708] ERROR -- Kitchen: /Users/zvickery/.chefdk/gem/ruby/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:85:in `verify'
+E, [2014-10-30T11:15:38.247100 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-10-30T11:15:38.247122 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-10-30T11:15:38.247149 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `call'
+E, [2014-10-30T11:15:38.247172 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-10-30T11:15:38.247195 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-10-30T11:15:38.247217 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-10-30T11:15:38.247240 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:282:in `action'
+E, [2014-10-30T11:15:38.247270 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-10-30T11:15:38.247294 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:264:in `verify_action'
+E, [2014-10-30T11:15:38.247317 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-10-30T11:15:38.247343 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `each'
+E, [2014-10-30T11:15:38.247366 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-10-30T11:15:38.247389 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:141:in `verify'
+E, [2014-10-30T11:15:38.247412 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-10-30T11:15:38.247435 #7708] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-10-30T11:15:38.247457 #7708] ERROR -- Kitchen: ----------------------
+I, [2014-10-30T11:15:48.563814 #7717]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-10-30T11:15:48.832631 #7717]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-ubuntu-1404>
+I, [2014-10-30T11:15:48.833163 #7717]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-10-30T11:15:55.440450 #7717]  INFO -- Kitchen: -----> Testing <default-ubuntu-1404>
+I, [2014-10-30T11:15:55.440626 #7717]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-10-30T11:17:04.332324 #7717]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-10-30T11:21:13.746483 #7717]  INFO -- Kitchen: -----> Setting up <default-ubuntu-1404>...
+I, [2014-10-30T11:21:41.846683 #7717]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+I, [2014-10-30T11:22:03.788018 #7717]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-10-30T11:22:09.544328 #7717]  INFO -- Kitchen: -----> Kitchen is finished. (6m20.98s)
